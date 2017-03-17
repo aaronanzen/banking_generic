@@ -41,20 +41,7 @@
 		</dependencies>
 	</dependencyManagement>
 	
-		<repositories>
-    <repository>
-        <id>anzen</id>
-        <name>internal repository</name>
-        <url>http://52.34.132.4:8081/nexus/content/repositories/anzen/</url>
-        <layout>default</layout>
-        <releases>
-            <enabled>true</enabled>
-        </releases>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
-    </repository>
-</repositories>
+	
 
 	<build>
 		<plugins>
