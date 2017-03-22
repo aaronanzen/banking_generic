@@ -21,7 +21,8 @@ node {
    
    // -- Compilando
    echo 'Compilando aplicación'
-   sh ' "${mvnHome}/bin:${env.PATH} "mvn clean compile'
+   sh 'cd /var/jenkins_home/workspace/tutorial-jenkins2_master-YFFU3PZNYQGJRXN6C5RD5NX2W7DEJFV5UQWUK4ECYBTFXCMJ656Q'
+   sh 'mvn clean compile'
    
    // ------------------------------------
    // -- ETAPA: Test
