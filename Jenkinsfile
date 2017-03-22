@@ -9,8 +9,8 @@ node {
    echo 'Configurando variables'
    def mvnHome = tool 'M3'
    env.PATH = "${mvnHome}/bin:${env.PATH}"
-   echo "var mvnHome='${mvnHome}'"
-   echo "var env.PATH='${env.PATH}'"
+   echo "variable mvnHome mvnHome='${mvnHome}'"
+   echo "variable PATH env.PATH='${env.PATH}'"
    
  
    
@@ -21,7 +21,7 @@ node {
    
    // -- Compilando
    echo 'Compilando aplicación'
-   sh 'mvn clean compile'
+   sh ' "${mvnHome}/bin:${env.PATH} "mvn clean compile'
    
    // ------------------------------------
    // -- ETAPA: Test
@@ -33,7 +33,7 @@ node {
    // ------------------------------------
    // -- ETAPA: Instalar
    // ------------------------------------
-   stage 'Juan Perez Jolote lo va Instalar Jugueteo '
+   stage 'Instalar '
    echo 'Instala el paquete generado en el repositorio maven'
 
 }
