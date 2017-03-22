@@ -21,7 +21,8 @@ node {
    
    // -- Compilando
    echo 'Compilando aplicación'
-   sh 'cd /var/jenkins_home/workspace/tutorial-jenkins2_master-YFFU3PZNYQGJRXN6C5RD5NX2W7DEJFV5UQWUK4ECYBTFXCMJ656Q/generic-bank/'
+   sh 'cd /var/jenkins_home/workspace/tutorial-jenkins2_master-YFFU3PZNYQGJRXN6C5RD5NX2W7DEJFV5UQWUK4ECYBTFXCMJ656Q'
+   sh 'cd /generic-bank'
    sh 'mvn clean compile'
    
    // ------------------------------------
