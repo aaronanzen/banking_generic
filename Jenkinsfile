@@ -33,7 +33,7 @@ node {
    // ------------------------------------
    // -- ETAPA: Instalar
    // ------------------------------------
-   stage 'Instalar'
+   stage 'Juan Perez Jolote lo va Instalar Jugueteo '
    echo 'Instala el paquete generado en el repositorio maven'
 
 }
