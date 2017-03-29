@@ -1,4 +1,6 @@
 # banking_generic
 Arquetipo con las configuraciones de los componentes de spring cloud. (API SPR) 
-jenkins prueba
-sadad
+
+jenkins
+s
+Se edita el documento Readme.
